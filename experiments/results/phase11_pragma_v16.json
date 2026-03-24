@@ -1,0 +1,52 @@
+{
+  "v15": {
+    "n_tasks": 30,
+    "exact_match": 0.9,
+    "pixel_accuracy": 0.9826967592592593,
+    "shape_match": 1.0,
+    "by_difficulty": {
+      "diff_1": 0.0,
+      "diff_2": 1.0,
+      "diff_3": 0.9,
+      "diff_4": 0.8
+    },
+    "by_task_type": {
+      "comp_2step": 0.95,
+      "comp_3step": 0.8
+    },
+    "em_std": 0.30000000000000004
+  },
+  "v16": {
+    "n_tasks": 30,
+    "exact_match": 0.9333333333333333,
+    "pixel_accuracy": 0.9884259259259259,
+    "shape_match": 1.0,
+    "by_difficulty": {
+      "diff_1": 0.0,
+      "diff_2": 1.0,
+      "diff_3": 0.9,
+      "diff_4": 0.9
+    },
+    "by_task_type": {
+      "comp_2step": 0.95,
+      "comp_3step": 0.9
+    },
+    "em_std": 0.24944382578492943
+  },
+  "tiers": {
+    "consist_2step": 10,
+    "consist_3step": 10,
+    "inverse_search": 5,
+    "ext_color_first": 2,
+    "tier1_symbolic_verified": 2,
+    "tier3_neural": 1
+  },
+  "improvements": 1,
+  "all_scores": {
+    "Single rules (v1.0)": 1.0,
+    "Comp v1.1": 0.6,
+    "Comp v1.4 (verification)": 0.867,
+    "Comp v1.5 (inverse)": 0.9,
+    "Comp v1.6 (color-first)": 0.9333333333333333
+  }
+}

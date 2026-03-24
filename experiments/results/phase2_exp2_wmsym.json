@@ -1,0 +1,79 @@
+{
+  "symbolic": {
+    "n_tasks": 100,
+    "exact_match": 0.82,
+    "pixel_accuracy": 0.9287489795918369,
+    "shape_match": 0.9,
+    "by_difficulty": {
+      "diff_1": 1.0,
+      "diff_2": 0.75,
+      "diff_3": 0.6
+    },
+    "by_task_type": {
+      "color_swap": 1.0,
+      "mirror_horizontal": 1.0,
+      "rotate_90cw": 1.0,
+      "fill_border": 1.0,
+      "fill_diagonal": 1.0,
+      "gravity_down": 1.0,
+      "vertical_symmetry": 1.0,
+      "count_encode": 0.0,
+      "color_chain": 1.0,
+      "object_move": 0.2
+    },
+    "em_std": 0.38418745424597095
+  },
+  "world_model": {
+    "n_tasks": 100,
+    "exact_match": 0.29,
+    "pixel_accuracy": 0.8016375283446712,
+    "shape_match": 0.91,
+    "by_difficulty": {
+      "diff_1": 0.275,
+      "diff_2": 0.4,
+      "diff_3": 0.1
+    },
+    "by_task_type": {
+      "color_swap": 0.0,
+      "mirror_horizontal": 1.0,
+      "rotate_90cw": 0.1,
+      "fill_border": 0.0,
+      "fill_diagonal": 0.0,
+      "gravity_down": 1.0,
+      "vertical_symmetry": 0.0,
+      "count_encode": 0.6,
+      "color_chain": 0.0,
+      "object_move": 0.2
+    },
+    "em_std": 0.4537620521815371
+  },
+  "wmsym": {
+    "n_tasks": 100,
+    "exact_match": 0.88,
+    "pixel_accuracy": 0.9740704081632653,
+    "shape_match": 1.0,
+    "by_difficulty": {
+      "diff_1": 1.0,
+      "diff_2": 0.9,
+      "diff_3": 0.6
+    },
+    "by_task_type": {
+      "color_swap": 1.0,
+      "mirror_horizontal": 1.0,
+      "rotate_90cw": 1.0,
+      "fill_border": 1.0,
+      "fill_diagonal": 1.0,
+      "gravity_down": 1.0,
+      "vertical_symmetry": 1.0,
+      "count_encode": 0.6,
+      "color_chain": 1.0,
+      "object_move": 0.2
+    },
+    "em_std": 0.3249615361854384,
+    "routing": {
+      "symbolic_color": 20,
+      "symbolic_spatial": 70,
+      "world_model": 10
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "neural_bayesian": {
+    "n_tasks": 100,
+    "exact_match": 0.91,
+    "pixel_accuracy": 0.9952323129251701,
+    "shape_match": 1.0,
+    "by_difficulty": {
+      "diff_1": 1.0,
+      "diff_2": 1.0,
+      "diff_3": 0.55
+    },
+    "by_task_type": {
+      "color_swap": 1.0,
+      "mirror_horizontal": 1.0,
+      "rotate_90cw": 1.0,
+      "fill_border": 1.0,
+      "fill_diagonal": 1.0,
+      "gravity_down": 1.0,
+      "vertical_symmetry": 1.0,
+      "count_encode": 1.0,
+      "color_chain": 1.0,
+      "object_move": 0.1
+    },
+    "em_std": 0.2861817604250837,
+    "routing": {
+      "bayesian_confident": 80,
+      "neural_fallback": 20
+    }
+  },
+  "ensemble": {
+    "n_tasks": 100,
+    "exact_match": 0.82,
+    "pixel_accuracy": 0.9287489795918369,
+    "shape_match": 0.9,
+    "by_difficulty": {
+      "diff_1": 1.0,
+      "diff_2": 0.75,
+      "diff_3": 0.6
+    },
+    "by_task_type": {
+      "color_swap": 1.0,
+      "mirror_horizontal": 1.0,
+      "rotate_90cw": 1.0,
+      "fill_border": 1.0,
+      "fill_diagonal": 1.0,
+      "gravity_down": 1.0,
+      "vertical_symmetry": 1.0,
+      "count_encode": 0.0,
+      "color_chain": 1.0,
+      "object_move": 0.2
+    },
+    "em_std": 0.38418745424597095
+  }
+}

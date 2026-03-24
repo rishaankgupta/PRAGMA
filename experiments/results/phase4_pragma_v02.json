@@ -1,0 +1,97 @@
+{
+  "v01": {
+    "n_tasks": 100,
+    "exact_match": 0.98,
+    "pixel_accuracy": 0.9987918367346938,
+    "shape_match": 1.0,
+    "by_difficulty": {
+      "diff_1": 1.0,
+      "diff_2": 1.0,
+      "diff_3": 0.9
+    },
+    "by_task_type": {
+      "color_swap": 1.0,
+      "mirror_horizontal": 1.0,
+      "rotate_90cw": 1.0,
+      "fill_border": 1.0,
+      "fill_diagonal": 1.0,
+      "gravity_down": 1.0,
+      "vertical_symmetry": 1.0,
+      "count_encode": 1.0,
+      "color_chain": 1.0,
+      "object_move": 0.8
+    },
+    "em_std": 0.13999999999999999
+  },
+  "v02_nomem": {
+    "n_tasks": 100,
+    "exact_match": 0.98,
+    "pixel_accuracy": 0.9987918367346938,
+    "shape_match": 1.0,
+    "by_difficulty": {
+      "diff_1": 1.0,
+      "diff_2": 1.0,
+      "diff_3": 0.9
+    },
+    "by_task_type": {
+      "color_swap": 1.0,
+      "mirror_horizontal": 1.0,
+      "rotate_90cw": 1.0,
+      "fill_border": 1.0,
+      "fill_diagonal": 1.0,
+      "gravity_down": 1.0,
+      "vertical_symmetry": 1.0,
+      "count_encode": 1.0,
+      "color_chain": 1.0,
+      "object_move": 0.8
+    },
+    "em_std": 0.13999999999999999
+  },
+  "v02_mem": {
+    "n_tasks": 100,
+    "exact_match": 0.98,
+    "pixel_accuracy": 0.9987918367346938,
+    "shape_match": 1.0,
+    "by_difficulty": {
+      "diff_1": 1.0,
+      "diff_2": 1.0,
+      "diff_3": 0.9
+    },
+    "by_task_type": {
+      "color_swap": 1.0,
+      "mirror_horizontal": 1.0,
+      "rotate_90cw": 1.0,
+      "fill_border": 1.0,
+      "fill_diagonal": 1.0,
+      "gravity_down": 1.0,
+      "vertical_symmetry": 1.0,
+      "count_encode": 1.0,
+      "color_chain": 1.0,
+      "object_move": 0.8
+    },
+    "em_std": 0.13999999999999999
+  },
+  "mem_stats": {
+    "total_episodes": 87,
+    "semantic_rules": {
+      "color_swap": 20,
+      "fliplr": 10,
+      "rot90cw": 10,
+      "border_fill": 10,
+      "diagonal": 10,
+      "gravity": 10,
+      "vertical_symmetry": 10,
+      "causal_object_move": 7
+    },
+    "memory_hits": 39,
+    "memory_misses": 61,
+    "hit_rate": 0.39
+  },
+  "tiers": {
+    "tier2_symbolic": 29,
+    "memory": 39,
+    "tier1_symbolic": 12,
+    "tier3_neural": 13,
+    "tier2_causal": 7
+  }
+}

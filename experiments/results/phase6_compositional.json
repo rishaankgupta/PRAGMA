@@ -1,0 +1,50 @@
+{
+  "v10": {
+    "n_tasks": 30,
+    "exact_match": 0.26666666666666666,
+    "pixel_accuracy": 0.707544501133787,
+    "shape_match": 0.8666666666666667,
+    "by_difficulty": {
+      "diff_1": 0.0,
+      "diff_2": 0.4,
+      "diff_3": 0.3,
+      "diff_4": 0.1
+    },
+    "by_task_type": {
+      "comp_2step": 0.35,
+      "comp_3step": 0.1
+    },
+    "em_std": 0.44221663871405326
+  },
+  "v11": {
+    "n_tasks": 30,
+    "exact_match": 0.6,
+    "pixel_accuracy": 0.9731050170068027,
+    "shape_match": 1.0,
+    "by_difficulty": {
+      "diff_1": 0.0,
+      "diff_2": 0.7,
+      "diff_3": 0.8,
+      "diff_4": 0.3
+    },
+    "by_task_type": {
+      "comp_2step": 0.75,
+      "comp_3step": 0.3
+    },
+    "em_std": 0.4898979485566357
+  },
+  "v10_tiers": {
+    "tier1_symbolic": 11,
+    "tier3_neural": 16,
+    "tier2_symbolic": 2,
+    "memory": 1
+  },
+  "v11_tiers": {
+    "tier1_symbolic": 12,
+    "comp_2step": 13,
+    "tier3_neural": 1,
+    "tier2_symbolic": 2,
+    "comp_3step": 2
+  },
+  "improvement": 0.3333333333333333
+}

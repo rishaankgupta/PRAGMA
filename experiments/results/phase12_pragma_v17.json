@@ -1,0 +1,55 @@
+{
+  "v16": {
+    "n_tasks": 30,
+    "exact_match": 0.9333333333333333,
+    "pixel_accuracy": 0.9884259259259259,
+    "shape_match": 1.0,
+    "by_difficulty": {
+      "diff_1": 0.0,
+      "diff_2": 1.0,
+      "diff_3": 0.9,
+      "diff_4": 0.9
+    },
+    "by_task_type": {
+      "comp_2step": 0.95,
+      "comp_3step": 0.9
+    },
+    "em_std": 0.24944382578492943
+  },
+  "v17": {
+    "n_tasks": 30,
+    "exact_match": 1.0,
+    "pixel_accuracy": 1.0,
+    "shape_match": 1.0,
+    "by_difficulty": {
+      "diff_1": 0.0,
+      "diff_2": 1.0,
+      "diff_3": 1.0,
+      "diff_4": 1.0
+    },
+    "by_task_type": {
+      "comp_2step": 1.0,
+      "comp_3step": 1.0
+    },
+    "em_std": 0.0
+  },
+  "tiers": {
+    "color_replace_2step": 6,
+    "consist_3step": 10,
+    "consist_2step": 5,
+    "inverse_search": 5,
+    "tier1_sym": 2,
+    "ext_color_first": 1,
+    "structural_first": 1
+  },
+  "improvements": 2,
+  "regressions": 0,
+  "all_scores": {
+    "Single rules (v1.0)": 1.0,
+    "Comp v1.1 (first)": 0.6,
+    "Comp v1.4 (verified)": 0.867,
+    "Comp v1.5 (inverse)": 0.9,
+    "Comp v1.6 (color-first)": 0.933,
+    "Comp v1.7 (final)": 1.0
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "symbolic": {
+    "n_tasks": 100,
+    "exact_match": 0.82,
+    "pixel_accuracy": 0.9287489795918369,
+    "shape_match": 0.9,
+    "by_difficulty": {
+      "diff_1": 1.0,
+      "diff_2": 0.75,
+      "diff_3": 0.6
+    },
+    "by_task_type": {
+      "color_swap": 1.0,
+      "mirror_horizontal": 1.0,
+      "rotate_90cw": 1.0,
+      "fill_border": 1.0,
+      "fill_diagonal": 1.0,
+      "gravity_down": 1.0,
+      "vertical_symmetry": 1.0,
+      "count_encode": 0.0,
+      "color_chain": 1.0,
+      "object_move": 0.2
+    },
+    "em_std": 0.38418745424597095
+  },
+  "neural": {
+    "n_tasks": 100,
+    "exact_match": 0.5,
+    "pixel_accuracy": 0.8066206065759637,
+    "shape_match": 0.9,
+    "by_difficulty": {
+      "diff_1": 0.35,
+      "diff_2": 0.65,
+      "diff_3": 0.5
+    },
+    "by_task_type": {
+      "color_swap": 0.2,
+      "mirror_horizontal": 0.2,
+      "rotate_90cw": 0.0,
+      "fill_border": 1.0,
+      "fill_diagonal": 1.0,
+      "gravity_down": 0.6,
+      "vertical_symmetry": 0.0,
+      "count_encode": 1.0,
+      "color_chain": 0.9,
+      "object_move": 0.1
+    },
+    "em_std": 0.5
+  },
+  "neusym": {
+    "n_tasks": 100,
+    "exact_match": 0.92,
+    "pixel_accuracy": 0.9956180272108845,
+    "shape_match": 1.0,
+    "by_difficulty": {
+      "diff_1": 1.0,
+      "diff_2": 1.0,
+      "diff_3": 0.6
+    },
+    "by_task_type": {
+      "color_swap": 1.0,
+      "mirror_horizontal": 1.0,
+      "rotate_90cw": 1.0,
+      "fill_border": 1.0,
+      "fill_diagonal": 1.0,
+      "gravity_down": 1.0,
+      "vertical_symmetry": 1.0,
+      "count_encode": 1.0,
+      "color_chain": 1.0,
+      "object_move": 0.2
+    },
+    "em_std": 0.2712931993250107
+  },
+  "pragma_v01": {
+    "n_tasks": 100,
+    "exact_match": 0.98,
+    "pixel_accuracy": 0.9987918367346938,
+    "shape_match": 1.0,
+    "by_difficulty": {
+      "diff_1": 1.0,
+      "diff_2": 1.0,
+      "diff_3": 0.9
+    },
+    "by_task_type": {
+      "color_swap": 1.0,
+      "mirror_horizontal": 1.0,
+      "rotate_90cw": 1.0,
+      "fill_border": 1.0,
+      "fill_diagonal": 1.0,
+      "gravity_down": 1.0,
+      "vertical_symmetry": 1.0,
+      "count_encode": 1.0,
+      "color_chain": 1.0,
+      "object_move": 0.8
+    },
+    "em_std": 0.13999999999999999
+  },
+  "tiers": {
+    "tier1_symbolic": 29,
+    "tier2_symbolic": 51,
+    "tier2_causal": 7,
+    "tier2_bayesian": 0,
+    "tier3_neural": 13,
+    "fallback_identity": 0
+  },
+  "elapsed": 0.33821773529052734,
+  "improvement": 0.05999999999999994,
+  "target_hit": true
+}

@@ -1,0 +1,97 @@
+{
+  "v11": {
+    "n_tasks": 30,
+    "exact_match": 0.6,
+    "pixel_accuracy": 0.9731050170068027,
+    "shape_match": 1.0,
+    "by_difficulty": {
+      "diff_1": 0.0,
+      "diff_2": 0.7,
+      "diff_3": 0.8,
+      "diff_4": 0.3
+    },
+    "by_task_type": {
+      "comp_2step": 0.75,
+      "comp_3step": 0.3
+    },
+    "em_std": 0.4898979485566357
+  },
+  "v12_best": {
+    "n_tasks": 30,
+    "exact_match": 0.6,
+    "pixel_accuracy": 0.9731050170068027,
+    "shape_match": 1.0,
+    "by_difficulty": {
+      "diff_1": 0.0,
+      "diff_2": 0.7,
+      "diff_3": 0.8,
+      "diff_4": 0.3
+    },
+    "by_task_type": {
+      "comp_2step": 0.75,
+      "comp_3step": 0.3
+    },
+    "em_std": 0.4898979485566357
+  },
+  "v12_by_beam": {
+    "3": {
+      "n_tasks": 30,
+      "exact_match": 0.6,
+      "pixel_accuracy": 0.9731050170068027,
+      "shape_match": 1.0,
+      "by_difficulty": {
+        "diff_1": 0.0,
+        "diff_2": 0.7,
+        "diff_3": 0.8,
+        "diff_4": 0.3
+      },
+      "by_task_type": {
+        "comp_2step": 0.75,
+        "comp_3step": 0.3
+      },
+      "em_std": 0.4898979485566357
+    },
+    "5": {
+      "n_tasks": 30,
+      "exact_match": 0.6,
+      "pixel_accuracy": 0.9731050170068027,
+      "shape_match": 1.0,
+      "by_difficulty": {
+        "diff_1": 0.0,
+        "diff_2": 0.7,
+        "diff_3": 0.8,
+        "diff_4": 0.3
+      },
+      "by_task_type": {
+        "comp_2step": 0.75,
+        "comp_3step": 0.3
+      },
+      "em_std": 0.4898979485566357
+    },
+    "8": {
+      "n_tasks": 30,
+      "exact_match": 0.6,
+      "pixel_accuracy": 0.9731050170068027,
+      "shape_match": 1.0,
+      "by_difficulty": {
+        "diff_1": 0.0,
+        "diff_2": 0.7,
+        "diff_3": 0.8,
+        "diff_4": 0.3
+      },
+      "by_task_type": {
+        "comp_2step": 0.75,
+        "comp_3step": 0.3
+      },
+      "em_std": 0.4898979485566357
+    }
+  },
+  "best_bw": 3,
+  "tiers": {
+    "tier1_symbolic": 12,
+    "voted_2step": 10,
+    "tier3_neural": 1,
+    "tier2_symbolic": 2,
+    "voted_3step": 5
+  }
+}

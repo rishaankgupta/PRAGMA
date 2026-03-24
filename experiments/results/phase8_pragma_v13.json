@@ -1,0 +1,61 @@
+{
+  "v12_old": {
+    "n_tasks": 30,
+    "exact_match": 0.6,
+    "pixel_accuracy": 0.9731050170068027,
+    "shape_match": 1.0,
+    "by_difficulty": {
+      "diff_1": 0.0,
+      "diff_2": 0.7,
+      "diff_3": 0.8,
+      "diff_4": 0.3
+    },
+    "by_task_type": {
+      "comp_2step": 0.75,
+      "comp_3step": 0.3
+    },
+    "em_std": 0.4898979485566357
+  },
+  "v12_hybrid": {
+    "n_tasks": 30,
+    "exact_match": 0.6333333333333333,
+    "pixel_accuracy": 0.967835648148148,
+    "shape_match": 1.0,
+    "by_difficulty": {
+      "diff_1": 0.0,
+      "diff_2": 0.7,
+      "diff_3": 0.8,
+      "diff_4": 0.4
+    },
+    "by_task_type": {
+      "comp_2step": 0.75,
+      "comp_3step": 0.4
+    },
+    "em_std": 0.4818944098266986
+  },
+  "v13_hybrid": {
+    "n_tasks": 30,
+    "exact_match": 0.7333333333333333,
+    "pixel_accuracy": 0.9737313397581254,
+    "shape_match": 1.0,
+    "by_difficulty": {
+      "diff_1": 0.0,
+      "diff_2": 0.7,
+      "diff_3": 0.8,
+      "diff_4": 0.7
+    },
+    "by_task_type": {
+      "comp_2step": 0.75,
+      "comp_3step": 0.7
+    },
+    "em_std": 0.4422166387140533
+  },
+  "tiers": {
+    "tier1_symbolic": 9,
+    "consist_3step": 10,
+    "consist_2step": 5,
+    "tier3_neural": 3,
+    "tier2_symbolic": 3
+  },
+  "target_hit": false
+}
